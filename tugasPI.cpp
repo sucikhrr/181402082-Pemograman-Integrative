@@ -1,7 +1,7 @@
 #include <conio.h>
 #include <iostream>
 using namespace std;
-int a= 4, b=2;
+int a,b;
 
 int pengurangan()
 {
@@ -24,6 +24,10 @@ int pembagian()
 
 int main ()
 {
+ cout<<"berikan sebuah angka pertama : ";
+ cin>>a;
+ cout<<endl<<"berikan sebuah angka kedua : " ;
+ cin>>b;
 cout<<endl<<"Pengurangan a dan b = "<<pengurangan();
  cout<<endl<<"Perkalian a dan b = "<<perkalian();
  cout<<endl<<"Perkalian a dan b = "<<pembagian();
