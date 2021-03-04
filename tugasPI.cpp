@@ -16,9 +16,16 @@ int perkalian()
  return kali;
 }
 
+int pembagian()
+{ int bagi ;
+ bagi = a /b ;
+ return bagi;
+}
+
 int main ()
 {
 cout<<endl<<"Pengurangan a dan b = "<<pengurangan();
  cout<<endl<<"Perkalian a dan b = "<<perkalian();
+ cout<<endl<<"Perkalian a dan b = "<<pembagian();
 return 0;
 }
