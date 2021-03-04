@@ -28,6 +28,7 @@ int main ()
  cin>>a;
  cout<<endl<<"berikan sebuah angka kedua : " ;
  cin>>b;
+ 
 cout<<endl<<"Pengurangan a dan b = "<<pengurangan();
  cout<<endl<<"Perkalian a dan b = "<<perkalian();
  cout<<endl<<"Perkalian a dan b = "<<pembagian();
